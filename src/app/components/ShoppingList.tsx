@@ -5,18 +5,16 @@ import {
   ShoppingCart, 
   Copy, 
   ChevronUp, 
-  ChevronDown, 
-  Check, 
   Square, 
   CheckSquare,
   Lightbulb,
-  Clock,
   Apple,
   Carrot,
   Fish,
   Beef,
   Milk,
-  Wheat
+  Wheat,
+  Check
 } from 'lucide-react'
 import { Recipe } from '../types/recipe'
 

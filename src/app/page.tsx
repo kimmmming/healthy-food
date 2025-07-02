@@ -7,7 +7,6 @@ import {
   Sun, 
   Moon, 
   Shuffle, 
-  ShoppingCart, 
   Eye, 
   RotateCcw, 
   Sparkles,
@@ -16,10 +15,7 @@ import {
   Heart,
   Star,
   Zap,
-  Apple,
-  Carrot,
-  Fish,
-  Beef
+  Apple
 } from 'lucide-react'
 import { recipes } from './data/recipes'
 import { Recipe } from './types/recipe'
@@ -253,7 +249,7 @@ export default function Home() {
         <div className="mt-8 text-center">
           <div className="flex items-center justify-center gap-2 text-gray-500 text-sm">
             <Sparkles className="w-4 h-4" />
-            <p>可以点击单个卡片的"重新生成"来替换特定餐次</p>
+            <p>可以点击单个卡片的&ldquo;重新生成&rdquo;来替换特定餐次</p>
             <Sparkles className="w-4 h-4" />
           </div>
         </div>

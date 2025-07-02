@@ -3,7 +3,6 @@
 import { 
   BarChart3, 
   Activity, 
-  Heart, 
   Zap, 
   Target, 
   TrendingUp, 
